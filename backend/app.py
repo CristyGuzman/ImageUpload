@@ -1,6 +1,6 @@
 import uvicorn
 from typing import List
-from fastapi import FastAPI, UploadFile, Response
+from fastapi import FastAPI, UploadFile, File, Response
 from pydantic_models.photo_model import PhotoModel
 
 app = FastAPI()
